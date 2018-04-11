@@ -1,3 +1,3 @@
-# Auth0 Saml Connection Tool
+# Auth0 SAML Connection Tool
 
-Command-line tools for managing SAML connections in Auth0
+A CLI for managing SAML connections in Auth0
