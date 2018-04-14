@@ -38,7 +38,7 @@ a0saml login
 
 Follow the prompts to configure the tool with the Auth0 client created above.
 
-Now you can do stuff, like create a SAML connection from the sample [SSO Circle](ssocircle.com) metadata file:
+Now you can do stuff, like create a SAML connection from the sample [SSO Circle](sample-metadata/ssocircle.xml) metadata file:
 
 ```sh
 a0saml create ./sample-metadata/ssocircle.xml
