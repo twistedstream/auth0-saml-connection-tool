@@ -4,6 +4,10 @@ A CLI for managing SAML connections in Auth0
 
 ## Setup
 
+### Prerequisites
+
+1. [Node.js](https://nodejs.org/en/download/)
+
 ### Auth0 Setup
 
 For a tenant to be used by the tool, you must first log into the [Auth0 Dashboard](https://manage.auth0.com) and:
@@ -16,7 +20,7 @@ For a tenant to be used by the tool, you must first log into the [Auth0 Dashboar
 
 ### Global Setup
 
-This script is not registered in `npm`, but you can install it as global command directly from this repo like this:
+This script is not registered as a package in `npm`, but you can install it as global command directly from this repo like this:
 
 ```sh
 npm install -g https://github.com/twistedstream/auth0-saml-connection-tool
