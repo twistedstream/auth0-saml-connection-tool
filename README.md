@@ -8,8 +8,8 @@ A CLI for managing SAML connections in Auth0
 
 For a tenant to be used by the tool, you must first log into the [Auth0 Dashboard](https://manage.auth0.com) and:
 
-1. Create a new **Non Interactive Client** that will represent this tool. Name it something like: `auth0-saml-connection-tool`
-1. Authorize the client for the **Auth0 Management API** and enable the following scopes:
+1. Create a new **Machine to Machine App** that will represent this tool. Name it something like: `auth0-saml-connection-tool`
+1. Authorize the app for the **Auth0 Management API** and enable the following scopes:
    * `read:connections`
    * `delete:connections`
    * `create:connections`
